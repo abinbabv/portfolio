@@ -1,0 +1,14 @@
+h1 {
+  font-family: "Open Sans",sans-serif;
+  font-style: oblique;
+  font-size: 55
+
+}
+h2 {
+  font-family: inherit;
+  font-style: italic;
+}
+p {
+  font-style: normal;
+  font-family: 'Xanh Mono', monospace;
+}
