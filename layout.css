@@ -1,14 +1,37 @@
+body{
+  background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg);
+  background-repeat: repeat;
+
+}
 h1 {
   font-family: "Open Sans",sans-serif;
   font-style: oblique;
-  font-size: 55
+  font-size: 55;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 }
 h2 {
   font-family: inherit;
   font-style: italic;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 p {
   font-style: normal;
   font-family: 'Xanh Mono', monospace;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px;
+
+
 }
