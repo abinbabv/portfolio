@@ -6,15 +6,17 @@ h1{
     color: cornsilk;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 2cm;
+    padding-top: 0.1cm;
+    font-family: 'Dancing Script', cursive;
 
 }
 h2 {
     color: cornsilk;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: cm;
-    padding-bottom: 0.5cm;
+    padding-top: 1cm;
+    font-family: 'Dancing Script', cursive;
+
 }
 img {
     max-width: 100%;
