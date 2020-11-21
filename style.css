@@ -1,6 +1,7 @@
 body {
     background-color: black;
     background-repeat: no-repeat;
+    text-align: center;
 }
 h1{
     color: cornsilk;
@@ -16,6 +17,18 @@ h2 {
     text-align: center;
     padding-top: 1cm;
     font-family: 'Dancing Script', cursive;
+    
+}
+.social-icons {
+    background: black;
+
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    opacity: 0.7;
 
 }
 img {
