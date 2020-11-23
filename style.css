@@ -42,7 +42,7 @@ p {
     padding-bottom: 1cm;
 
 }
-img {
+.frame1 {
     max-width: 100%;
     height: auto;
     margin-left: auto;
@@ -50,3 +50,361 @@ img {
     display: block;
     
 }
+#love {
+  animation: love 1s infinite alternate;
+
+}
+@keyframes love {
+  from {
+    transform: rotateX(0deg);
+  
+  }
+  to {
+    transform: rotateX(25deg);
+  }
+}
+#globe {
+  animation: globe 15s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+
+}
+@keyframes globe{
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to{
+    transform: rotate(360deg);
+  }
+}
+#ball1 {
+  animation: ball1 5s infinite alternate ease;
+}
+@keyframes ball1 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(20deg);
+  }
+}
+#ball2 {
+  animation: ball2 5s infinite alternate ease;
+}
+@keyframes ball2 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(30deg);
+  }
+}
+#ball3 {
+  animation: ball3 5s infinite alternate ease;
+}
+@keyframes ball3 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(20deg);
+  }
+}
+#ball4 {
+  animation: ball4 5s infinite alternate ease;
+}
+@keyframes ball4 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(30deg);
+  }
+}
+#ball5 {
+  animation: ball5 5s infinite alternate ease;
+}
+@keyframes ball5 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(20deg);
+  }
+}
+#ball6 {
+  animation: ball6 5s infinite alternate ease;
+}
+@keyframes ball6 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(15deg);
+  }
+}
+#ball7 {
+  animation: ball7 4s infinite alternate ease;
+}
+@keyframes ball7 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(30deg);
+  }
+}
+#ball8 {
+  animation: ball8 5s infinite alternate ease;
+}
+@keyframes ball8 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(30deg);
+  }
+}
+.basr-social-share {
+    position; ;
+    top:3em;
+    left:0;
+    right:0;
+    width: 25%;
+    display: block;
+    text-align:center;
+    padding:0 auto;
+    margin:5em auto;
+    font-size: 0cm;
+    
+  }
+  
+  .social ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .social ul li {
+    border: 5px solid #512e12;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  @media only screen and (max-width: 480px) {
+    .social ul li {
+      border-width: 4px;
+      width: 45px;
+      height: 45px;
+    }
+  }
+  .social ul li:not(:last-child) {
+    margin-right: 10px;
+  }
+  .social ul li:before {
+    content: '';
+    border-radius: 50%;
+    -webkit-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
+    -ms-box-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
+    box-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    opacity: 0.35;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  @media only screen and (max-width: 480px) {
+    .social ul li:before {
+      width: 43px;
+      height: 43px;
+    }
+  }
+  .social ul li:hover {
+    border-color: #a33629;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .social ul li:hover:before {
+    -webkit-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
+    -ms-box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
+    box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .social ul li:hover i {
+    color: #d66557;
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #a33629;
+    -webkit-fill-color: #a33629;
+    text-shadow: 1px 0px 20px #a33629;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .social ul li a {
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+  @media only screen and (max-width: 480px) {
+    .social ul li a {
+      background-size: cover;
+      top: -5px;
+      left: -5px;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+    }
+  }
+  .social ul li a:before {
+    content: '';
+    background-image: url('https://img.picload.org/image/dcocwcga/border-social-hover.png');
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 46px;
+    height: 45px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  @media only screen and (max-width: 480px) {
+    .social ul li a:before {
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .social ul li a:after {
+    content: '';
+    background-image: url('https://img.picload.org/image/dcocwcgd/border-social.png');
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 46px;
+    height: 45px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  @media only screen and (max-width: 480px) {
+    .social ul li a:after {
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .social ul li a:hover:before {
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    -ms-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social ul li a:hover:after {
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    -ms-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social ul li a i {
+    color: #ffead3;
+    font-size: 23px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #ffead3;
+    -webkit-fill-color: #ffead3;
+    text-shadow: 1px 0px 20px #ffead3;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  @media only screen and (max-width: 480px) {
+    .social ul li a i {
+      font-size: 16px;
+    }
+  }
+  .social ul li a i.fa-envelope {
+    font-size: 14px;
+    top: 48%;
+  }
+  .k2t-footer.dark-style .social li a,
+  .dark-style .social li a {
+    color: #fff;
+  }
+  .k2t-footer.dark-style .social li a:hover,
+  .dark-style .social li a:hover {
+    color: #fff;
+  }
+  .basr-social-share.social li:hover a {
+    color: #898989;
+  }
+  .basr-social-share.social li a {
+    border-width: 0;
+    color: #cccccc;
+  }
+  .basr-social-share.social li a:hover {
+    color: #898989;
+  }
+  .basr-social-share.social li a span {
+    display: none;
+  }
