@@ -10,7 +10,7 @@ body {
         transform; background-color: crimson;
     }
     to {
-        transform; background-color: rgb(61, 1, 1);
+        transform; background-color: rgb(247, 55, 55);
     }
 }
 h2{
@@ -31,7 +31,6 @@ p {
 }
 .social-icons {
     font-size: 21px;
-    color: cornsilk;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -40,8 +39,10 @@ p {
     padding-bottom: 1cm;
 
 }
-.social-icons a:link .fa, .social-icons a-visited .fa {
-  color: cornsilk;
+a:link, a:visited {
+  background-color: crimson;
+  color: rgb(61, 1, 1);
+  border-radius: 50%;
 }
 .frame1 {
     max-width: 100%;
