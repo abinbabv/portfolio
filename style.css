@@ -25,9 +25,12 @@ p {
     color: cornsilk;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 1cm;
+    padding-top: 1.5cm;
     font-family: 'Dancing Script', cursive;
     
+}
+.pingme {
+  padding-top: 0cm;
 }
 .social-icons {
     font-size: 21px;
@@ -40,16 +43,16 @@ p {
 
 }
 a:link, a:visited {
-  background-color: crimson;
+  background-color: transparent;
   color: rgb(61, 1, 1);
   border-radius: 50%;
 }
-.frame1 {
+/* .frame1 {
     max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: block; */
     
 }
 #love {
