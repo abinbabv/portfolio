@@ -1,9 +1,34 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
 body {
     
     background-repeat: no-repeat;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    justify-content: center;
+    align-items: center;
     animation: body 3.2s infinite ease-in-out alternate;
+    border: 1px solid transparent;
 }
+
+/* @keyframesbody {
+  from {
+    transform; background-color: linearGradient(crimson, orange);
+  }
+  to {
+    transform; background-color: linearGradient(orange, crimson);
+  }
+} */
+
 
 @keyframes body {
     from{
@@ -13,24 +38,91 @@ body {
         transform; background-color: rgb(247, 55, 55);
     }
 }
-h2{
-    color: cornsilk;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    padding-top: 0.1cm;
-    font-family: 'Dancing Script', cursive;
+
+.nav, .about, .works, .edu, .contact{
+
+  padding-bottom: 50px;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  padding-left: 40px;
+  font-family: 'Goodfish';
+  font-size: large;
+  border: 1px solid transparent;
+  letter-spacing: 3px;
+  width: 100%;
+  height: 100%;
+  color: cornsilk;
 
 }
-p {
+
+.nav a:hover {
+  color: #fd9644;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px black;
+  font-size: x-large;
+}
+.name {
+    
+    display: block;
+    font-family: 'Goodfish',;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #471a1a;
+    margin: 70px;
+    border-radius: 10%;
+    width: 40px;
+    height: 200px;
+    opacity: 0.8;
+    letter-spacing: ;
+    position: fixed;
+    
+    /* font-family: 'Dancing Script', cursive; */
+
+
+    
+}
+h2:hover {
+  border: 2px solid rgb(61, 38, 38);
+  
+
+}
+h3{
+  color: cornsilk;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  font-family: 'Goodfish', inherit;
+  letter-spacing: 2px;
+  
+}
+.pingme {
     color: cornsilk;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 1.5cm;
+    padding-top: ;
     font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px black;
+    letter-spacing: 1px;
     
+
 }
-.pingme {
-  padding-top: 0cm;
+.section {
+  font-family: 'Goodfish';
+}
+.abou, .work, .ed, .contac{
+  color: cornsilk;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  padding: 220px;
+
+}
 }
 .social-icons {
     font-size: 21px;
@@ -38,8 +130,8 @@ p {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    opacity: 0.7;
-    padding-bottom: 1cm;
+    opacity: 0.8;
+    padding-top: 2px;
 
 }
 a:link, a:visited {
@@ -53,9 +145,11 @@ a:link, a:visited {
     margin-left: auto;
     margin-right: auto;
     display: block; */
-    
+.frame1{
+  padding-top: 10;
+} 
 #love {
-  animation: love 1s infinite alternate;
+  animation: love 2s infinite alternate;
 
 }
 @keyframes love {
