@@ -35,8 +35,39 @@ body {
         transform; background-color: crimson;
     }
     to {
-        transform; background-color: rgb(247, 55, 55);
+        transform; background-color: orange;
     }
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* RESPONSIVE WEB DESIGN */
+
+ /* FOR SMALLER SCREENS */
+@media only screen and (max-width: 600px){
+  body{
+    background-image: linear-gradient(to right, orange, crimson);
+
+  }
+  .nav .about, .nav .works, .nav .edu, .nav .contact{
+    width: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+}
+/* FOR MEDIUM SIZED SCREENS */
+@media only screen and (max-width:900px) and (min-width: 600px){
+  body{
+    background-image: linear-gradient(to left, orange, crimson);
+
+  }
+  .nav .about, .nav .works, .nav .edu, .nav .contact{
+    width: 0%;
+    margin: 0%;
+    text-align: center;
+
+  }
 }
 
 .nav, .about, .works, .edu, .contact{
@@ -50,10 +81,7 @@ body {
   padding-left: 40px;
   font-family: 'Goodfish';
   font-size: large;
-  border: 1px solid transparent;
   letter-spacing: 3px;
-  width: 100%;
-  height: 100%;
   color: cornsilk;
 
 }
@@ -64,41 +92,28 @@ body {
   text-shadow: 2px 1px 1px black;
   font-size: x-large;
 }
-.name {
+.name h1 {
     
     display: block;
     font-family: 'Goodfish',;
     font-weight: bold;
-    font-size: larger;
+    font-size: x-large;
     text-align: center;
-    padding: 10px;
-    border: 3px solid #471a1a;
-    margin: 70px;
-    border-radius: 10%;
-    width: 40px;
-    height: 200px;
-    opacity: 0.8;
-    letter-spacing: ;
-    position: fixed;
-    
+    padding: 0px;
+    position: relative;
+    color: cornsilk;
+    text-transform: lowercase;
     /* font-family: 'Dancing Script', cursive; */
-
-
     
 }
-h2:hover {
-  border: 2px solid rgb(61, 38, 38);
+.subtext h3{
   
-
-}
-h3{
-  color: cornsilk;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Goodfish";
   text-align: center;
-  padding-top: 12px;
-  padding-bottom: 5px;
-  font-family: 'Goodfish', inherit;
-  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  color: cornsilk;
   
 }
 .pingme {
@@ -107,7 +122,6 @@ h3{
     text-align: center;
     padding-top: ;
     font-family: 'Dancing Script', cursive;
-    text-shadow: 1px 1px black;
     letter-spacing: 1px;
     
 
