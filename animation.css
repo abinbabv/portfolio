@@ -1,0 +1,122 @@
+.frame1{
+    padding-top: 10;
+    text-align: center;
+    justify-content: center;
+  
+  } 
+  #love {
+    animation: love 2s infinite alternate;
+  
+  }
+  @keyframes love {
+    from {
+      transform: rotateX(0deg);
+    
+    }
+    to {
+      transform: rotateX(25deg);
+    }
+  }
+  #globe {
+    animation: globe 15s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+  
+  }
+  @keyframes globe{
+    from {
+      transform: rotateZ(0deg);
+    }
+  
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  #ball1 {
+    animation: ball1 5s infinite alternate ease;
+  }
+  @keyframes ball1 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(20deg);
+    }
+  }
+  #ball2 {
+    animation: ball2 5s infinite alternate ease;
+  }
+  @keyframes ball2 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(30deg);
+    }
+  }
+  #ball3 {
+    animation: ball3 5s infinite alternate ease;
+  }
+  @keyframes ball3 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(20deg);
+    }
+  }
+  #ball4 {
+    animation: ball4 5s infinite alternate ease;
+  }
+  @keyframes ball4 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(30deg);
+    }
+  }
+  #ball5 {
+    animation: ball5 5s infinite alternate ease;
+  }
+  @keyframes ball5 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(20deg);
+    }
+  }
+  #ball6 {
+    animation: ball6 5s infinite alternate ease;
+  }
+  @keyframes ball6 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(15deg);
+    }
+  }
+  #ball7 {
+    animation: ball7 4s infinite alternate ease;
+  }
+  @keyframes ball7 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(30deg);
+    }
+  }
+  #ball8 {
+    animation: ball8 5s infinite alternate ease;
+  }
+  @keyframes ball8 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(30deg);
+    }
+  }
