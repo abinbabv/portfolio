@@ -1,8 +1,6 @@
 .frame1{
     padding-top: 10;
     text-align: center;
-    justify-content: center;
-  
   } 
   #love {
     animation: love 2s infinite alternate;

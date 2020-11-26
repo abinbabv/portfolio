@@ -42,6 +42,7 @@ html{
   scroll-behavior: smooth;
 }
 
+
 /* RESPONSIVE WEB DESIGN */
 
  /* FOR SMALLER SCREENS */
@@ -50,11 +51,7 @@ html{
     background-image: linear-gradient(to right, orange, crimson);
 
   }
-  .nav .about, .nav .works, .nav .edu, .nav .contact{
-    width: 0%;
-    margin: 0%;
-    text-align: center;
-  }
+
 }
 /* FOR MEDIUM SIZED SCREENS */
 @media only screen and (max-width:900px) and (min-width: 600px){
@@ -62,90 +59,19 @@ html{
     background-image: linear-gradient(to left, orange, crimson);
 
   }
-  .nav .about, .nav .works, .nav .edu, .nav .contact{
-    width: 0%;
-    margin: 0%;
-    text-align: center;
 
-  }
-}
 
-.nav, .about, .works, .edu, .contact{
 
-  padding-bottom: 50px;
-  display: flex;
-  text-align: center;
-  text-decoration: none;
-  list-style: none;
-  padding: 20px;
-  padding-left: 40px;
-  font-family: 'Goodfish';
-  font-size: large;
-  letter-spacing: 3px;
-  color: cornsilk;
-
-}
-
-.nav a:hover {
-  color: #fd9644;
-  font-weight: bold;
-  text-shadow: 2px 1px 1px black;
-  font-size: x-large;
-}
-.name h1 {
-    
-    display: block;
-    font-family: 'Goodfish',;
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
-    padding: 0px;
-    position: relative;
-    color: cornsilk;
-    text-transform: lowercase;
-    /* font-family: 'Dancing Script', cursive; */
-    
-}
-.subtext h3{
-  
-  font-family: "Goodfish";
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 15px;
-  letter-spacing: 1px;
-  color: cornsilk;
-  
-}
-.pingme {
-    color: cornsilk;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    padding-top: ;
-    font-family: 'Dancing Script', cursive;
-    letter-spacing: 1px;
-    
-
-}
-.section {
-  font-family: 'Goodfish';
-}
-.abou, .work, .ed, .contac{
-  color: cornsilk;
-  justify-content: center;
-  align-items: center;
-  font-size: x-large;
-  padding: 220px;
-
-}
-}
 .social-icons {
     font-size: 21px;
     text-align: center;
+    justify-content: center;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
     opacity: 0.8;
     padding-top: 2px;
+
 
 }
 a:link, a:visited {
@@ -159,8 +85,12 @@ a:link, a:visited {
     margin-left: auto;
     margin-right: auto;
     display: block; */
+
 .frame1{
   padding-top: 10;
+  text-align: center;
+  justify-content: center;
+
 } 
 #love {
   animation: love 2s infinite alternate;
@@ -520,3 +450,4 @@ a:link, a:visited {
   .basr-social-share.social li a span {
     display: none;
   }
+/* BOOTSTRAP CSS CODE OVERRIDE */
