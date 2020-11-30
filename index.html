@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>ABIN BABU</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,30 +17,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="app/js/script.js"></script>
     
 </head>
 <body>
     <!-- NAVIGATION -->
-    <div class="wrapper">
-              <ul>
-                <li><a class="ab" href="#about">About</a>
-                </li>
-                <li>
-                  <a class="sk" href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a class="ac" href="#accomp">Accomplishments</a>
-                </li>
-                <li>
-                  <a class="co" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
+    <!-- <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#accomp">Accomplishments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul> -->
+      <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#skills">Skills</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#accomp">Accomplishments</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#contact">Contact</a>
+        <!-- <a class="flex-sm-fill text-sm-center nav-link active" href="#">Active</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a> -->
     <header>
         <div>
-            <img class="pro-pic" src="pro-pic.jpg" alt="profile-picture" width="150px">
+            <img class="img-thumbnail rounded mx-auto d-block" src="app/img/pro-pic.jpg" alt="profile-picture" width="150px">
         </div>
     
         <h1 class="main">Abin Babu</h1>
