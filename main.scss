@@ -9,6 +9,8 @@ $body-color: #111;
 
 $enable-gradients: true;
 
+$font-family-base: "Goodfish";
+
 
 $theme-colors: (
   "bodybg": crimson,
@@ -19,14 +21,13 @@ $theme-colors: (
   "fourth": rgb(107, 3, 107),
   "fifth": rgba(173, 10, 105, 0.993),
   "sixth": rgb(230, 46, 33),
-  "seventh": rgb(111, 211, 245)),
-
+  "seventh": rgb(111, 211, 245),
 );
 
 
-$font-family-sans-serif:      "Goodfish";
-$font-family-monospace:       "Poppins", monospace;
-$font-family-base:            $font-family-sans-serif;
+// $font-family-sans-serif:      "Goodfish";
+// $font-family-monospace:       "Poppins", monospace;
+// $font-family-base:            $font-family-sans-serif;
 
 
 @import "C:/Users/being/Documents/GitHub/abinbabv.github.io/node_modules/bootstrap/scss/bootstrap";
@@ -34,8 +35,11 @@ $font-family-base:            $font-family-sans-serif;
 html {
     scroll-behavior: smooth;
 }
-body {
-  font-family: Arial, sans-serif;
+.jumbotron {
+  font-family: $font-family-base;
+  background-image: url(app/img/dark.jpg);
+  background-repeat: no-repeat;
+  
 }
 
 .propic {
@@ -46,4 +50,7 @@ body {
 .social-icons {
     margin-bottom: 10px;
     font-size: 25px;
+}
+h3, h6, p {
+  font-family: $font-family-base;
 }
