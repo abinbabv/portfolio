@@ -1,0 +1,49 @@
+@import "C:/Users/being/Documents/GitHub/abinbabv.github.io/node_modules/bootstrap/scss/functions";
+@import "C:/Users/being/Documents/GitHub/abinbabv.github.io/node_modules/bootstrap/scss/mixins";
+@import "C:/Users/being/Documents/GitHub/abinbabv.github.io/node_modules/bootstrap/scss/variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$body-bg: #111111;
+$body-color: #111;
+
+$enable-gradients: true;
+
+
+$theme-colors: (
+  "bodybg": crimson,
+  "bodycolor": cornsilk,
+  "primary": rgb(255, 115, 0),
+  "secondary": rgb(7, 7, 148),
+  "third": rgb(204, 188, 47),
+  "fourth": rgb(107, 3, 107),
+  "fifth": rgba(173, 10, 105, 0.993),
+  "sixth": rgb(230, 46, 33),
+  "seventh": rgb(111, 211, 245)),
+
+);
+
+
+$font-family-sans-serif:      "Goodfish";
+$font-family-monospace:       "Poppins", monospace;
+$font-family-base:            $font-family-sans-serif;
+
+
+@import "C:/Users/being/Documents/GitHub/abinbabv.github.io/node_modules/bootstrap/scss/bootstrap";
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.propic {
+    border: 1px solid;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.social-icons {
+    margin-bottom: 10px;
+    font-size: 25px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>ABIN BABU</title>
-    <link rel="stylesheet" href="app/css/style.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +20,7 @@
     <script src="app/js/script.js"></script>
     
 </head>
-<body>
+<body class="bg-bodybg text-light"> 
     <!-- NAVIGATION -->
     <!-- <ul class="nav justify-content-center">
         <li class="nav-item">
@@ -36,79 +36,135 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul> -->
-      <nav class="nav nav-pills flex-column flex-sm-row">
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Home</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#skills">Skills</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#accomp">Accomplishments</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#contact">Contact</a>
+      
         <!-- <a class="flex-sm-fill text-sm-center nav-link active" href="#">Active</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a> -->
     <header>
-        <div>
-            <img class="img-thumbnail rounded mx-auto d-block" src="app/img/pro-pic.jpg" alt="profile-picture" width="150px">
-        </div>
-    
-        <h1 class="main">Abin Babu</h1>
+        <section class="container" id="about">
+            <div class="row">
+                <div class="col-sm-12 text-center" style="margin: 1px">
+                    <nav class="nav nav-pills flex-column flex-sm-row text-center m-3">
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Home</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#skills">Skills</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#accomp">Accomplishments</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#contact">Contact</a>
+                    </nav>
+                    <div>
+                        <img class="mt-5 propic" src="app/img/pro-pic.jpg" alt="profile-picture" width="150px">
+                    </div>
+                    
+                    
+                    <div class="text-center mb-3">
+                        <h1 class="text-uppercase">Abin Babu</h1>
+                        <h3>AEI Undergrad | Aspiring Frontend Web Developer</h3>
+                        <p class="ping font-italic">Feel free to ping me anytime</p>
+                        
+                        <div class="social-icons">
+                            <a href="mailto:beingabin@gmail.com"><i class='bx bx-at bx-tada-hover' ></i></a>
+                            <a href="https://linkedin.com/in/abinbabu"><i class='bx bxl-linkedin bx-tada-hover' ></i></a>
+                            <a href="https://github.com/abinbabv"><i class='bx bxl-github bx-tada-hover' ></i></a>
+                            <a href="https://facebook.com/abinbabv"><i class='bx bxl-facebook-circle bx-tada-hover' ></i></a>
+                            <a href="https://twitter.com/abinbabv"><i class='bx bxl-twitter bx-tada-hover' ></i></a>
+                            <a href="https://instagram.com/abinbabv"><i class='bx bxl-instagram bx-tada-hover' ></i></a>
+                    </div>
+                    <section class="text-justify" id="about">
+                        <p>
+                            <ul class="p-3">
+                             <li>I have a bachelors in Applied Electronics and Instrumentation Engineering from APJ Abdul Kalam Technological University (KTU).</li> 
 
-        <h3 class="main">AEI Undergrad | Aspiring Frontend Web Developer</h3>
-        <br>
+                             <li>My specialities include quickly learning new skills, programming languages, frameworks and problem solving.</li>
+                            
+                             <li> So far I have HTML, CSS, Sass, Gulp, C Programming, Python and Git/Github under my belt.</li>
+                            
+                             <li>I’m still grabbing enthusiastically onto any other programming languages, frameworks and principles I can integrate into the coding web in my head.</li>
+                            
+                             <li class="font-italic">I’m currently open to entry-level programming positions / internships from potential recruiters.</li> 
+                            </ul>
+                                
+                          </p>
+                    </section>
+                        
+                    
+                    <section class="lead text-justify" id="skills">
         
-        </div>
-        <div>
-            <p class="ping"><mark>Feel free to ping me</mark></p>
-        </div>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Cupiditate obcaecati impedit delectus laudantium porro exercitationem quisquam illum est sequi 
+                            voluptatibus eius voluptatum enim accusamus non, quia odit distinctio culpa sit! Lorem ipsum dolor 
+                            sit amet, consectetur adipisicing elit. Laborum sunt rerum fuga doloremque eligendi error amet excepturi 
+                            eveniet, nihil earum ipsam provident quo alias eum ad minima deserunt officia reiciendis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, doloribus nemo, deserunt eos quae ullam inventore necessitatibus harum odit natus sunt aut ratione aliquid dicta reprehenderit nostrum animi molestias molestiae. </p>
+                        <div class="row">
+                            <div class="pro p-3 col-sm-6">
+
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-primary font-weight-bold" style="width:80%">HTML</div>
+                                  </div>
+                                  <br>
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-secondary font-weight-bold" style="width:70%">CSS</div>
+                                  </div>
+                                  <br>
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-third font-weight-bold" style="width:40%">JavaScript</div>
+                                  </div>
+                                  <br>
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-fourth font-weight-bold" style="width:60%">Bootstrap</div>
+                                  </div>
+                                  <br>
+                
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-fifth font-weight-bold" style="width:70%">SASS</div>
+                                  </div>
+                                  <br>
+                            </div>
+                            <div class="pro p-3 col-sm-6">
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-sixth font-weight-bold" style="width:50%">Gulp</div>
+                                  </div>
+                                  <br>
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-seventh font-weight-bold" style="width:65%">C Programming</div>
+                                  </div>
+                                  <br>
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-third font-weight-bold" style="width:40%">Python</div>
+                                  </div>
+                                  <br>
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-seventh font-weight-bold" style="width:20%">PHP</div>
+                                  </div>
+                                  <br>
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-gradient-fourth font-weight-bold" style="width:10%">C#</div>
+                                  </div>
+                                  <br>
+                            </div>
+                        </div>
+                        </section>
+                    <section class="lead text-justify" id="accomp">
         
-        <div class="social-icons">
-            <a href="mailto:beingabin@gmail.com"><i class='bx bx-at bx-tada-hover' ></i></a>
-            <a href="https://linkedin.com/in/abinbabu"><i class='bx bxl-linkedin bx-tada-hover' ></i></a>
-            <a href="https://github.com/abinbabv"><i class='bx bxl-github bx-tada-hover' ></i></a>
-            <a href="https://facebook.com/abinbabv"><i class='bx bxl-facebook-circle bx-tada-hover' ></i></a>
-            <a href="https://twitter.com/abinbabv"><i class='bx bxl-twitter bx-tada-hover' ></i></a>
-            <a href="https://instagram.com/abinbabv"><i class='bx bxl-instagram bx-tada-hover' ></i></a>
-            
-            <br>
-    
-        <section class="para" id="about">
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Cupiditate obcaecati impedit delectus laudantium porro exercitationem quisquam illum est sequi 
+                            voluptatibus eius voluptatum enim accusamus non, quia odit distinctio culpa sit! Lorem ipsum dolor 
+                            sit amet, consectetur adipisicing elit. Laborum sunt rerum fuga doloremque eligendi error amet excepturi 
+                            eveniet, nihil earum ipsam provident quo alias eum ad minima deserunt officia reiciendis! </p>
+                        </section>
+                    <section class="lead text-justify" id="contact">
         
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Cupiditate obcaecati impedit delectus laudantium porro exercitationem quisquam illum est sequi 
-                    voluptatibus eius voluptatum enim accusamus non, quia odit distinctio culpa sit! Lorem ipsum dolor 
-                    sit amet, consectetur adipisicing elit. Laborum sunt rerum fuga doloremque eligendi error amet excepturi 
-                    eveniet, nihil earum ipsam provident quo alias eum ad minima deserunt officia reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius assumenda illum animi explicabo laboriosam dolore ea voluptate? Ratione doloribus, optio, perspiciatis eos officia doloremque quos dicta dolores nam aut at. </p>
-                <br>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Cupiditate obcaecati impedit delectus laudantium porro exercitationem quisquam illum est sequi 
+                            voluptatibus eius voluptatum enim accusamus non, quia odit distinctio culpa sit! Lorem ipsum dolor 
+                            sit amet, consectetur adipisicing elit. Laborum sunt rerum fuga doloremque eligendi error amet excepturi 
+                            eveniet, nihil earum ipsam provident quo alias eum ad minima deserunt officia reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate mollitia ut saepe quo voluptates? Doloribus dolores sunt odit repudiandae, voluptates veniam dolorem quis eum reprehenderit voluptatibus, ut ducimus quae natus! </p>
+                        </section>
+                        <footer><p>ABIN BABU &#169; | 2020-2021</p></footer>
+
+                </div>
+                
+            </div> 
         </section>
-    
-        <section class="para" id="skills">
         
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Cupiditate obcaecati impedit delectus laudantium porro exercitationem quisquam illum est sequi 
-                voluptatibus eius voluptatum enim accusamus non, quia odit distinctio culpa sit! Lorem ipsum dolor 
-                sit amet, consectetur adipisicing elit. Laborum sunt rerum fuga doloremque eligendi error amet excepturi 
-                eveniet, nihil earum ipsam provident quo alias eum ad minima deserunt officia reiciendis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, doloribus nemo, deserunt eos quae ullam inventore necessitatibus harum odit natus sunt aut ratione aliquid dicta reprehenderit nostrum animi molestias molestiae. </p>
-        </section>
-        <br>
-        <section class="para" id="accomp">
-        
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Cupiditate obcaecati impedit delectus laudantium porro exercitationem quisquam illum est sequi 
-            voluptatibus eius voluptatum enim accusamus non, quia odit distinctio culpa sit! Lorem ipsum dolor 
-            sit amet, consectetur adipisicing elit. Laborum sunt rerum fuga doloremque eligendi error amet excepturi 
-            eveniet, nihil earum ipsam provident quo alias eum ad minima deserunt officia reiciendis! </p>
-        </section>
-        <br>
-        <section class="para" id="contact">
-        
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Cupiditate obcaecati impedit delectus laudantium porro exercitationem quisquam illum est sequi 
-            voluptatibus eius voluptatum enim accusamus non, quia odit distinctio culpa sit! Lorem ipsum dolor 
-            sit amet, consectetur adipisicing elit. Laborum sunt rerum fuga doloremque eligendi error amet excepturi 
-            eveniet, nihil earum ipsam provident quo alias eum ad minima deserunt officia reiciendis! </p>
-        </section>
     </div>
     </header>
-    <br>
-    <footer>
-        <p>ABIN BABU &#169; | 2020-2021</p>
-    </footer>
 </body>
 </html>
