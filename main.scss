@@ -35,6 +35,7 @@ $theme-colors: (
 html {
     scroll-behavior: smooth;
 }
+
 .jumbotron {
   font-family: $font-family-base;
   background-image: url(app/img/dark.jpg);
@@ -46,10 +47,17 @@ html {
     margin-bottom: 10px;
     border-radius: 50%;
 }
+
 .social-icons {
     margin-bottom: 10px;
     font-size: 25px;
 }
+
 h3, h6, p {
   font-family: $font-family-base;
 }
+
+<a class="flex-sm-fill text-sm-center nav-link" href="#">HOME</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#skills">SKILLS</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#accomp">ACCOMPLISHMENTS</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#contact">CONTACT</a>
